@@ -65,7 +65,7 @@ function spyJS(cb){
 
 function processFonts(cb){
     gulp.src("src/Font/*")
-    .pipe(gulp.dest("build"))
+    .pipe(gulp.dest("build/Fonts"))
     .pipe(bs.stream())
     cb()
 }
