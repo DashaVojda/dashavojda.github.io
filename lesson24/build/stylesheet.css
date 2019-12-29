@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Milasian Circa Bold PERSONAL';
+    src: url('MilasianCircaBoldPERSONAL.woff2') format('woff2'),
+        url('MilasianCircaBoldPERSONAL.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe Extra';
+    src: url('Circe-ExtraLight.woff2') format('woff2'),
+        url('Circe-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('Circe-Regular.woff2') format('woff2'),
+        url('Circe-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('Circe-Thin.woff2') format('woff2'),
+        url('Circe-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe Extra';
+    src: url('Circe-ExtraBold.woff2') format('woff2'),
+        url('Circe-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe Rounded';
+    src: url('CirceRounded-Light.woff2') format('woff2'),
+        url('CirceRounded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe Rounded';
+    src: url('CirceRounded-Thin.woff2') format('woff2'),
+        url('CirceRounded-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe Rounded Extra';
+    src: url('CirceRounded-ExtraLight.woff2') format('woff2'),
+        url('CirceRounded-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('Circe-Light.woff2') format('woff2'),
+        url('Circe-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('Circe-Bold.woff2') format('woff2'),
+        url('Circe-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
