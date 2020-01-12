@@ -3,178 +3,207 @@
     padding: 0;
     margin: 0;
 }
-@font-face {
-    font-family: 'Milasian Circa Bold PERSONAL';
-    src: url('MilasianCircaBoldPERSONAL.woff2') format('woff2'),
-        url('MilasianCircaBoldPERSONAL.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Circe Extra';
-    src: url('Circe-ExtraLight.woff2') format('woff2'),
-        url('Circe-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Circe';
-    src: url('Circe-Regular.woff2') format('woff2'),
-        url('Circe-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Circe';
-    src: url('Circe-Thin.woff2') format('woff2'),
-        url('Circe-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Circe Extra';
-    src: url('Circe-ExtraBold.woff2') format('woff2'),
-        url('Circe-ExtraBold.woff') format('woff');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Circe Rounded';
-    src: url('CirceRounded-Light.woff2') format('woff2'),
-        url('CirceRounded-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Circe Rounded';
-    src: url('CirceRounded-Thin.woff2') format('woff2'),
-        url('CirceRounded-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Circe Rounded Extra';
-    src: url('CirceRounded-ExtraLight.woff2') format('woff2'),
-        url('CirceRounded-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Circe';
-    src: url('Circe-Light.woff2') format('woff2'),
-        url('Circe-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Circe';
-    src: url('Circe-Bold.woff2') format('woff2'),
-        url('Circe-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-.nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 195px;
-    box-shadow: 0 8px 114px 14px #0c0d0d;
-    background-color: #1b181d;
-    &__header{
-        padding-bottom: 53px;
-        color: #bcc2c4;
-        font-family: Circe;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 30px;
-        text-align: center;
+.header{
+    background: url(img/bg1copy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__logo{
+       padding-top: 12px; 
     }
-    &__box1{
+    &__block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__block-head{
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 64px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 60px;
+    }
+    &__block-text{
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 40px;
+        font-weight: 400;
+        margin-top:50px;
+        text-align: center;
+    }&__block-btn{
+        width: 366px;
+        height: 74px;
+        border-radius: 8px;
+        background-color: #1086cb;
+        border:none;
+        outline: none !important;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 22px;
+        font-weight: 700;
+        &:active{
+            background-color: #00324f;
+        }
+    }
+}
+.strategy{
+    background: url(img/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 97px;
+    &__header{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 100px;
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__box-img{
+        margin-bottom: 38px;
+    }
+    &__box-text{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 27px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 54px;
+    }
+    &__box-btn{
+        width: 177px;
+        height: 44px;
+        border-radius: 10px;
+        background-color: #1086cb;
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 24px;
+        font-weight: 400;
+        outline: none !important;
+        border: none;
+        box-shadow: 0 2px 0 #00324f;
+        &:active{
+            background-color: #00324f;
+        }
+    }
+    &__box2-img{
+        margin-bottom: 45px;
+    }
+    &__box2-text{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 27px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 56px;
+    }
+    &__box3-img{
+        margin-bottom: 42px;
+    }
+    &__box3-text{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 27px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+    &__box4-img{
+        margin-top: 79px;
+        margin-bottom: 48px;
+    }
+    &__box4-text{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 27px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    &__box5-img{
+        margin-top: 52px;
+        margin-bottom: 5px;
+    }
+    &__box5-text{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 27px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+}
+.form{
+    background-image: url(img/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:108px;
+    &__box{
         display: flex;
         flex-direction: column;
         align-items: center;
-        &:hover .nav__box1-fon2{
-            opacity: 1;
+        justify-content: center;
+    }
+    &__box-header{
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 79px;
+    }
+    &__box-email{
+        width: 475px;
+        height: 71px;
+        border-radius: 5px;
+        border: 2px solid #ffffff;
+        outline: none;
+        background: none;
+        padding-left: 30px;
+        caret-color: #84cdff;
+        color: #84cdff;
+        font-family: "Roboto Slab";
+        font-size: 27px;
+        font-weight: 400;
+        margin-bottom: 31px;
+        &::placeholder{
+            color: #84cdff;
+            font-family: "Roboto Slab";
+            font-size: 27px;
+            font-weight: 400;
         }
     }
-    &__box1-fon1{
-        position: relative;
-    }
-    &__box1-fon2{
-        position: absolute;
-        left: 56px;
-        bottom: 7px;
-        opacity: 0;
-        // &:hover{
-        //     opacity: 1;
-        // }
-    }
-    &__box1-img{
-        position: absolute;
-        padding-top: 10px;
-        padding-left: 5px;
-    }
-}
-.logo{
-    display:flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding-top: 33px;
-    padding-bottom: 78px;
-    &__text{
-        margin-left: 13px;
-        color: #ffffff;
-        font-family: "Circe Extra";
-        font-weight: 800;
+    &__box-tel{
+        width: 475px;
+        height: 71px;
+        border-radius: 5px;
+        border: 2px solid #ffffff;
+        outline: none;
+        background: none;
+        padding-left: 30px;
+        caret-color: #84cdff;
+        color: #84cdff;
+        font-family: "Roboto Slab";
+        font-size: 27px;
+        font-weight: 400;
+        &::placeholder{
+            color: #84cdff;
+            font-family: "Roboto Slab";
+            font-size: 27px;
+            font-weight: 400;
+        }
     }
 }
-#hexagon {
-    width: 100px;
-    height: 55px;
-    background: none;
-    position: relative;
-    margin: 10px auto;
-    border-left: 1px solid #5a656a;
-    border-right: 1px solid #5a656a;
-    box-shadow: 0 0 27px rgba(44, 195, 246, 0.36), inset 0 0 57px #ffffff;
-}
-
-#hexagon:before {
-    content: " ";
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: -25px;
-    left: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 25px solid none;
-    box-shadow: 0 0 27px rgba(44, 195, 246, 0.36), inset 0 0 57px #ffffff;
-}
-
-#hexagon:after {
-    content: " ";
-    width: 0;
-    height: 0;
-    position: absolute;
-    bottom: -25px;
-    left: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 25px solid none;
-    
-}
-
 
 
 
