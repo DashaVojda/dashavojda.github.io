@@ -324,7 +324,8 @@
         position:relative;
         padding-bottom: 175px;
         &:hover .map__img-text{
-            display: block;
+            opacity:1;
+            transition: opacity 1s;
         }
     }
     &__img-text{
@@ -333,7 +334,7 @@
         top: 150px;
         left: 170px;
         padding: 20px 40px 0px 80px;
-        display: none;
+        opacity: 0;
     }
 }
 .block{
@@ -464,7 +465,8 @@
     &__box-figure{
         position: relative;
         &:hover .schedule__box-figurehover{
-            display:block;
+            opacity:1;
+            transition: opacity 1s;
         }
     }
     &__box-figurehover{
@@ -474,7 +476,7 @@
         top: 15px;
         right: -125px;
         padding: 20px 80px 10px 35px;
-        display: none;
+        opacity: 0;
 
     }
     &__box-figurehover-header{
@@ -495,6 +497,99 @@
 }
 span{
     font-weight: 700;
+}
+.franchise{
+    position:relative;
+    padding-bottom: 112px;
+    &__anchor{
+        position: absolute;
+        left: 221px;
+    }
+    &__circle{
+        position: absolute;
+        right: 231px;
+        top: 490px;
+    }
+    &__header{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 116px;
+    }
+    &__text{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 36px;
+        margin-top: 87px;
+    }
+    &__text1{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 36px;
+    }
+    &__text2{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 24px;
+        font-weight: 400;
+    }
+    &__box{
+        width: 415px;
+        background-image: url(img/bg7.png);
+        background-repeat: no-repeat;
+        padding-left: 65px;
+        padding-bottom: 50px;
+        margin-top: 87px;
+
+    }
+    &__box-header{
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 32px;
+        font-weight: 700;
+        padding-left: 38px;
+        padding-top: 28px;
+        margin-bottom: 25px;
+    }
+    &__box-text{
+        color: #004372;
+        font-family: "Roboto Slab";
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        position: relative;
+        &:before{
+            content: url(img/gal.png);
+            padding-right: 15px;
+            position: absolute;
+            left: -35px;
+        }
+    }
+    &__box-text1{
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+.benefit{
+    background-image: url(img/bg8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 89px;
+    &__header{
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+    }
 }
 
 
