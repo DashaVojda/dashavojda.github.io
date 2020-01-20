@@ -900,7 +900,9 @@ span{
     background-image: url(img/bg10.png);
     background-repeat: no-repeat;
     background-size: initial;
-    // margin-top: -10px;
+    position: relative;
+    margin-top: -10px;
+    padding-bottom: 30px;
     &__header{
         color: #ffffff;
         font-family: "Roboto Slab";
@@ -937,6 +939,170 @@ span{
     }
     &__box-block{
         margin-top: 77px;
+    }
+}
+.contact{
+    position: relative;
+    &__bg{
+        position: absolute;
+        left: 348px;
+        top: -80px;
+    }
+    &__header{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 60px;
+        font-weight: 700;
+        margin-top: 70px;
+        margin-bottom: 113px;
+        text-align: center;
+    }
+    &__box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+        margin-bottom: 148px;
+        &:before{
+            content: url(img/left1.png);
+            position: absolute;
+            top: 273px;
+            left: -66px;
+            cursor: pointer;
+        }
+        &:after{
+            content: url(img/right1.png);
+            position: absolute;
+            top:273px;
+            right: -66px;
+            cursor: pointer;
+        }
+    }
+    &__box1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__box1-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__box1-blocktext{
+        width: 306px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+        border-radius: 25px;
+        background-color: #ffffff;
+        padding: 127px 30px 52px 30px;
+    }
+    &__head{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    &__head1{
+        color: #959595;
+        font-family: "Roboto Slab";
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+    &__text{
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 17px;
+        font-weight: 300;
+    }
+    &__image{
+        margin-bottom: -90px;
+        z-index: 1;
+    }
+}
+.footer{
+    background-color: #1b1b1b;
+    padding-top: 58px;
+    &__email-btn{
+        width: 170px;
+        height: 44px;
+        border-radius: 5px;
+        background-color: #ffd200;
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 16px;
+        font-weight: 700;
+        outline: none !important;
+        border: none;
+        box-shadow: 0 2px 0 #9e8200;
+        padding: 12px 22px;
+        margin-bottom: 19px;
+        cursor: pointer;
+        &:active{
+            background-color: #9e8200;
+        }
+    }
+    &__email-email{
+        color: #e85c17;
+        font-family: "Roboto Slab";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        &:hover{
+            color: #e85c17;
+        }
+    }
+    &__email-num{
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        &:hover{
+            color: #ffffff;
+        }
+    }
+    &__media{
+        margin-left: 10px;
+        margin-bottom: 23px;
+
+    }
+    &__media1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__media-text{
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: underline;
+        margin-bottom: 13px;
+        &:hover{
+            color: #ffffff;
+        }
+    }
+    &__media-text1{
+        color: #888888;
+        font-family: "Roboto Slab";
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: underline;
+        &:hover{
+            color: #888888;
+        }
+    }
+    &__info{
+        color: #ffffff;
+        font-family: "Roboto Slab";
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 30px;
+        margin-bottom: 45px;
+        text-align: center;
     }
 }
 
